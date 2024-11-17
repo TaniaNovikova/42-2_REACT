@@ -1,5 +1,5 @@
-import Button from "../../Button/Button";
-import LessonCard from "../../LessonCard/LessonCard";
+import Button from "../../components/Button/Button";
+import LessonCard from "../../components/LessonCard/LessonCard";
 import "./styles.css"
 
 function Lesson02() {

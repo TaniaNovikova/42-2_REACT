@@ -1,7 +1,7 @@
 import "./styles.css";
-import Button from "../../Button/Button";
-import AnimalCard from "../../AnimalCard/AnimalCard";
-import { lionData, zebraData, hippoData } from "../../AnimalCard/data";
+import Button from "../../components/Button/Button";
+import AnimalCard from "../../components/AnimalCard/AnimalCard";
+import { lionData, zebraData, hippoData } from "../../components/AnimalCard/data";
 
 function Lesson03() {
   return (

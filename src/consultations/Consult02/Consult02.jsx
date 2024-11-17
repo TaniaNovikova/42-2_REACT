@@ -1,5 +1,5 @@
 import './styles.css';
-import CommentCard from "../../CommentCard/CommentCard"
+import CommentCard from "../../components/CommentCard/CommentCard"
 
 function Consult02() {
   const commendCardInfo = [

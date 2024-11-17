@@ -1,4 +1,4 @@
-import ProfileCard from "../../ProfileCard/ProfileCard";
+import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import "./styles.css";
 
 function Homework02() {
