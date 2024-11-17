@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.comment-card-wrapper{
+  background-color:#000;
+  display: flex;
+  flex-direction: column;
+  gap: 61px;
+  justify-content: center;
+  width: 435px;
+  height: 321px;
+  padding: 50px;
+  font-family: "DM Sans", "Helvetica Neue", Helvetica, sans-serif;
+  border-radius: 32px;
+
+}
+
+.comment-card-text{
+  color: #fff;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.comment-card-author{
+  color: #fff;
+  opacity: 70%;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.comment-card-wrapper_bg{
+  background-color: blueviolet;
+}

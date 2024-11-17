@@ -1,0 +1,14 @@
+import ProfileCard from "../../ProfileCard/ProfileCard";
+import "./styles.css";
+
+function Homework02() {
+  return (
+    <div className="homework_02-wrapper">
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+    </div>
+  );
+}
+
+export default Homework02;

@@ -1,0 +1,16 @@
+.main-button {
+  width: 100%;
+  height: 70px;
+  border-radius: 4px;
+  background: rgba(31, 39, 245, 1);
+  padding: 20px 54px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  outline: none;
+  border: 0cap;
+  cursor: pointer;
+  font-family: Lato, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+
