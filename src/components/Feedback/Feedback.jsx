@@ -23,16 +23,9 @@ function Feedback() {
     <div className="feedback-wrapper">
       <div className="title">Feedback</div>
       <div className="likes-dislikes-wrapper">
-        <div className="result-wrapper">{dislikes}</div>
+        <div className="result-wrapper">{likes}</div>
 
         <div className="likes-dislikes-buttons-wrapper">
-          <div className="button-control">
-            <Button
-              className="likes-dislikes-button"
-              name="Dislike"
-              onClick={dislikesIncrement}
-            />
-          </div>
           <div className="button-control">
             <Button
               className="likes-dislikes-button"
@@ -40,8 +33,15 @@ function Feedback() {
               onClick={likesIncrement}
             />
           </div>
+          <div className="button-control">
+            <Button
+              className="likes-dislikes-button"
+              name="Disike"
+              onClick={dislikesIncrement}
+            />
+          </div>
         </div>
-        <div className="result-wrapper likes">{likes}</div>
+        <div className="result-wrapper dislikes">{dislikes}</div>
       </div>
       <Button
         className="reset-button"
