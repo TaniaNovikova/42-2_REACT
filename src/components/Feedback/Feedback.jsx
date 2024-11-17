@@ -44,6 +44,7 @@ function Feedback() {
         <div className="result-wrapper dislikes">{dislikes}</div>
       </div>
       <Button
+        type="reset"
         className="reset-button"
         name="Reset Results"
         onClick={resetAllResults}
