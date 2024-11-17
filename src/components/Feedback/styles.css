@@ -8,11 +8,9 @@
   min-width: 600px;
   width: fit-content;
   height: 400px;
-  border: 3px outset rgba(255, 255, 255, 0.176);
   border-radius: 4px;
   padding: 50px 40px;
-  background-color: rgb(255, 255, 255, 0.3);
-  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255, 0.4);
 
   color: rgba(255, 255, 255, 1);
   font-family: Lato, Helvetica, sans-serif;
@@ -39,13 +37,13 @@
   gap: 80px;
 }
 
-.result-wrapper {
+.result {
   width: fit-content;
   display: flex;
   justify-content: flex-end;
   min-width: 100px;
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 350;
 }
 
 .dislikes {

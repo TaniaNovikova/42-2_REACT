@@ -23,7 +23,7 @@ function Feedback() {
     <div className="feedback-wrapper">
       <div className="title">Feedback</div>
       <div className="likes-dislikes-wrapper">
-        <div className="result-wrapper">{likes}</div>
+        <div className="result">{likes}</div>
 
         <div className="likes-dislikes-buttons-wrapper">
           <div className="button-control">
@@ -41,7 +41,7 @@ function Feedback() {
             />
           </div>
         </div>
-        <div className="result-wrapper dislikes">{dislikes}</div>
+        <div className="result dislikes">{dislikes}</div>
       </div>
       <Button
         type="reset"
