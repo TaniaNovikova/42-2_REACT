@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.login-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 590px;
+  min-height: 450px;
+  height: fit-content;
+  padding: 60px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-radius: 4px;
+  font-family: Lato, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.login-form-title {
+  color: rgba(0, 0, 0, 1);
+  font-size: 24px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 470px;
+  min-height: 176px;
+  height: fit-content;
+}
