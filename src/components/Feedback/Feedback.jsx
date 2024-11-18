@@ -4,12 +4,11 @@ import { useState } from "react";
 
 function Feedback() {
   const [likes, setLikes] = useState(0);
+  const [dislikes, setDislikes] = useState(0);
 
   const likesIncrement = () => {
     setLikes((likes) => likes + 1);
   };
-
-  const [dislikes, setDislikes] = useState(0);
 
   const dislikesIncrement = () => {
     setDislikes((dislikes) => dislikes + 1);
