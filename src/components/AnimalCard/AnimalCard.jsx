@@ -1,11 +1,10 @@
 import "./styles.css";
-function AnimalCard({animalName, animalSpesies, animalImage, children}) {
+function AnimalCard({ animalData }) {
   return (
     <div className="animal-card-wrapper">
-      <h3>{animalName}</h3>
-      <div>{animalSpesies}</div>
-      <img src={animalImage} alt={animalName}/>
-      {children}
+      <h3>{animalData.name}</h3>
+      <div>{animalData.species}</div>
+      <img src={animalData.image} />
     </div>
   );
 }
