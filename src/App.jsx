@@ -10,6 +10,8 @@ import "./App.css";
 
 // import Consult02 from "./consultations/Consult02/Consult02";
 
+import Experiment01 from "./Experiments/Experiment01/Experiment01"
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,7 @@ function App() {
       {/* <Homework03/> */}
       {/* <Homework04/> */}
       {/* <Consult02 /> */}
+      <Experiment01/>
     </div>
   );
 }

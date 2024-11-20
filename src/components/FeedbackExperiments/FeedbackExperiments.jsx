@@ -1,6 +1,8 @@
 import "./styles.css";
 import Button from "../Button/Button";
 import { useState } from "react";
+import like from "../../assets/like.png";
+import dislike from "../../assets/dislike.png";
 
 function FeedbackExperiments() {
   const [likes, setLikes] = useState(0);
@@ -30,6 +32,7 @@ function FeedbackExperiments() {
               className="likes-dislikes-button"
               name="Like"
               onClick={likesIncrement}
+              imgSrc={like}
             />
           </div>
           <div className="button-control">
@@ -37,6 +40,7 @@ function FeedbackExperiments() {
               className="likes-dislikes-button"
               name="Disike"
               onClick={dislikesIncrement}
+              imgSrc={dislike}
             />
           </div>
         </div>
