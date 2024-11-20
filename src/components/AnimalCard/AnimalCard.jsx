@@ -4,7 +4,7 @@ function AnimalCard({ animalData }) {
     <div className="animal-card-wrapper">
       <h3>{animalData.name}</h3>
       <div>{animalData.species}</div>
-      <img src={animalData.image} />
+      <img src={animalData.image} alt="img"/>
     </div>
   );
 }
