@@ -14,7 +14,7 @@ export const data = [
     skills: ["Running", "Joking"],
     image:
       "https://img.freepik.com/premium-photo/meet-adorable-3d-baby-zebra-with-big-expressive-eyes-that-will-melt-your-heart-this-cartoon-cr_1032785-4269.jpg?w=740",
-  },
+  }, 
   {
     name: "Gloria",
     species: "Hippo",
@@ -22,5 +22,5 @@ export const data = [
     skills: ["Swimming", "Singing"],
     image:
       "https://img.freepik.com/free-vector/cute-hippopotamus-flat-style_1308-111685.jpg?t=st=1713338351~exp=1713341951~hmac=da5b88d5e60e962ab410cab28b41e1a4317b69ad3045b54fa635ddb0103db2b4&w=826",
-  },
+  }
 ];

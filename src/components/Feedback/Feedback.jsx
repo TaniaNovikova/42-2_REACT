@@ -1,54 +1,39 @@
-import "./styles.css";
-import Button from "../Button/Button";
 import { useState } from "react";
+import Button from "../Button/Button";
+import "./styles.css";
 
 function Feedback() {
   const [likes, setLikes] = useState(0);
-  const [dislikes, setDislikes] = useState(0);
+  const [dislikes, setDisikes] = useState(0);
 
-  const likesIncrement = () => {
-    setLikes((likes) => likes + 1);
+  const addLike = () => {
+    setLikes((prevValue) => prevValue + 1);
   };
 
-  const dislikesIncrement = () => {
-    setDislikes((dislikes) => dislikes + 1);
+  const addDislike = () => {
+    setDisikes((prevValue) => prevValue + 1);
   };
 
-  const resetAllResults = () => {
+  const resetResults = ()=>{
     setLikes(0);
-    setDislikes(0);
-  };
-  return (
-    <div className="feedback-wrapper">
-      <div className="title">Feedback</div>
-      <div className="likes-dislikes-wrapper">
-        <div className="result">{likes}</div>
+    setDisikes(0);
+  }
 
-        <div className="likes-dislikes-buttons-wrapper">
-          <div className="button-control">
-            <Button
-              className="likes-dislikes-button"
-              name="Like"
-              onClick={likesIncrement}
-            />
-          </div>
-          <div className="button-control">
-            <Button
-              className="likes-dislikes-button"
-              name="Disike"
-              onClick={dislikesIncrement}
-            />
-          </div>
+  return (
+    <div className="feedback-container">
+      <div className="feedback-result-container">
+        <div className="like-dislike-container">
+          <div className="result">{likes}</div>
+          <Button name="LIKE" onClick={addLike} />
         </div>
-        <div className="result dislikes">{dislikes}</div>
+        <div className="like-dislike-container">
+          <div className="result">{dislikes}</div>
+          <Button name="DISLIKE" onClick={addDislike} />
+        </div>
       </div>
-      <Button
-        type="reset"
-        className="reset-button"
-        name="Reset Results"
-        onClick={resetAllResults}
-      />
+      <Button name="RESET RESULTS" onClick={resetResults} />
     </div>
   );
 }
+
 export default Feedback;
